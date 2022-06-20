@@ -6,7 +6,26 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+
+
+function semaforo (props){
+
+return (
+            <div className="cajaNegra">
+                <div className="luz"> luz roja</div>
+                <div className="luz"> luz amarilla</div>
+                <div className="luz"> luz verde</div>
+
+
+            </div>
+
+
+)
+
+
+}
+
+
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<semaforo />, document.querySelector("#app"));

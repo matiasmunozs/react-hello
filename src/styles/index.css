@@ -10,3 +10,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.cajaNegra{
+
+height: 500px;
+width: 200px;
+background: black;
+border: 1px solid white;
+
+}
+
+.luz{
+    border-radius: 25%; 
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+
+}
